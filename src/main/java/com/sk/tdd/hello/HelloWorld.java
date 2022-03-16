@@ -1,10 +1,10 @@
 package com.sk.tdd.hello;
 
 public class HelloWorld {
-
+	private static String helloMessage = "Hello World";
+	
 	public String getMessage() {
-		// TODO Auto-generated method stub
-		return "Hello World";
+		return helloMessage;
 	}
 	
 	public String getMessage(String name) {
